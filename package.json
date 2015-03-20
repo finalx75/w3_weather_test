@@ -1,0 +1,21 @@
+{
+  "name": "cloud-app-weather-dashboard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "Colin Vernon <colin@littlebits.cc>",
+  "license": "GPL3",
+  "dependencies": {
+    "request": "~2.34.0",
+    "littlebits-cloud-http": "git+https://git@github.com:littlebits/cloud-client-api-http.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.7.x"
+  }
+}
+

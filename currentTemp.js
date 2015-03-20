@@ -39,7 +39,7 @@ function get_weather_values() {
         // output_value = reMapTemp(currentTemp, 0, 100, 0, 100);
       }
       
-      console.log('Current Temperature is '+currentTemp+' C and Sending to cloud module ( '+ output_value+' C )');
+      console.log('Current Temperature is '+currentTemp+' C and Sending to cloud module ( '+ output_value+' )');
 
       // send output to littleBits cloud API
       config.output({ device_id: device_id, percent:output_value , duration_ms:-1 }, function (err,res) {

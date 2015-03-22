@@ -4,9 +4,9 @@ var device_id = "00e04c024b42"
 
 
 // trigger the function inititally,
-get_weather_values();
+// get_weather_values();
 // then again every 30min
-setInterval( get_weather_values, 1800000 );
+// setInterval( get_weather_values, 1800000 );
 
 // function for remapping temperature for servo output
 
